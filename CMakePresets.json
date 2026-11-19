@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "mingw",
+      "displayName": "Qt 5.14 MinGW 7.3",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/build",
+      "environment": {
+        "PATH": "D:/Qt/Tools/mingw730_64/bin;$penv{PATH}",
+        "CMAKE_SH": "CMAKE_SH-NOTFOUND"
+      },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_PREFIX_PATH": "D:/Qt/5.14.2/mingw73_64",
+        "CMAKE_C_COMPILER": "D:/Qt/Tools/mingw730_64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "D:/Qt/Tools/mingw730_64/bin/g++.exe"
+      }
+    }
+  ]
+}
