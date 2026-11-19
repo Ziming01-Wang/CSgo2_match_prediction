@@ -1,0 +1,2 @@
+# CSgo2_match_prediction
+cs2比赛模拟胜率以及major胜率预测
